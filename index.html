@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        section {
+            padding: 2em 1em;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .bio {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .message {
+            font-size: 1em;
+            color: #666;
+            margin-top: 10px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .row a {
+            display: block;
+            width: 150px;
+            text-decoration: none;
+            color: black;
+            font-size: 0.9em;
+        }
+        .row img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .row a:hover img {
+            border-color: #bbb;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Project Demonstration Website</h1>
+</header>
+
+<section>
+    <div class="bio">
+        <h2>Biography</h2>
+        <p>My name is Marcus.</p>
+    </div>
+
+    <div class="message">
+        <p>This website is part of a project to demonstrate my skills. Below you'll find links to some photos and videos. Click on them to view!</p>
+    </div>
+
+    <h3>Photo Links</h3>
+    <div class="row">
+        <!-- Replace with relative links to your uploaded photos -->
+        <a href="assets/photo1.jpg" target="_blank"><img src="assets/photo1.jpg" alt="Photo 1"> Photo 1</a>
+        <a href="assets/photo2.jpg" target="_blank"><img src="assets/photo2.jpg" alt="Photo 2"> Photo 2</a>
+    </div>
+
+    <h3>Video Links</h3>
+    <div class="row">
+        <!-- Google Drive Video Links with Thumbnails -->
+        <a href="https://drive.google.com/uc?id=YOUR_VIDEO_ID&export=download" target="_blank">
+            <img src="assets/video1_thumbnail.jpg" alt="Video 1 Thumbnail">
+            <p>Video 1</p>
+        </a>
+        <a href="https://drive.google.com/uc?id=YOUR_VIDEO_ID_2&export=download" target="_blank">
+            <img src="assets/video2_thumbnail.jpg" alt="Video 2 Thumbnail">
+            <p>Video 2</p>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>2024 Marcus - MegaMates Box Number 4532</p>
+</footer>
+
+</body>
+</html>
